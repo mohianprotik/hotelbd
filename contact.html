@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        CONTACT US
+    </title>
+ 
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	
+	<meta name="viewport" content="width = device-width , initial-scale = 1.0">
+	
+	<link rel = "stylesheet" href="navbar.CSS">
+	<link rel = "stylesheet" href="footer.CSS">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	  <meta name="viewport" content="width = device-width , initial-scale = 1.0">
+	  <link rel="stylesheet" href ="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+
+				<div id ="navigation">
+			   
+				<div class="hamburger" id="hamburger">
+				  <div class="line"></div>
+				  <div class="line"></div>
+				  <div class="line"></div>
+				</div>
+		
+				<ul class="nav-links" id="nav-links">
+				
+					<li  class="active"><a href="index.html">HOME</a></li>
+					<li class="active"><a href="./tour package.html"> Hotels</a></li>
+					
+					<li class="active"><a href="./colorlib-booking-8/index.html"> Booking</a></li>
+					
+					
+					<li  ><a href="log.html" class="btn btn-warning" id="Log_in">Log in</button></a></li>
+				
+					<button type="button" class="btn btn-warning" id = "Log_out" style="display:none">Log Out</button>
+					<li class="active"><a href="#">Contact</a></li>
+				
+					
+				 
+				</ul>
+				</div>
+			  
+			  
+			</header>
+		
+	<style>
+		body{
+	background-image:linear-gradient(rgba(45, 141, 145, 0.5),rgba(21, 48, 66, 0.5));
+		}</style>
+       
+<div><br><br><br><br><br>
+</div> 
+<main>
+    <h1 style="text-align: center">We will be happy to hear from you</h1>
+  <style>
+       h1{
+        color: black;
+    }
+  </style> 
+    <div class="container contact">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="contact-info">
+                    <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+                    <h2>Contact Us</h2>
+                    <h4>We would love to hear from you !</h4>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="contact-form" id = "contact-form">
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="name">Name:</label>
+                      <div class="col-sm-10">          
+                        <input type="text" class="form-control" id="contact-name" placeholder="Enter Name" name="fname">
+                      </div>
+                    </div>
+                    
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="email">Email:</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="contact-email" placeholder="Enter email" name="email">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                            <label class="control-label col-sm-2" for="subject">subject:</label>
+                            <div class="col-sm-10">          
+                              <input type="text" class="form-control" id="subject" placeholder="Enter topic name" name="lname">
+                            </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="comment">Query:</label>
+                      <div class="col-sm-10">
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-group">        
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-success" id = "submit">Submit</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</main>
+<div><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+   
+<footer class="ct-footer" >
+	
+		
+		<ul class="ct-footer-list text-center-sm">
+	
+				<h2 class="ct-footer-list-header">
+					@Copyrigtht
+				</h2>
+				<ul>
+				
+					<li>
+						<a href="#">Tanha</a>
+					</li>
+				
+				</ul>
+			</li>
+		</ul>
+		</div>
+</footer>
+
+
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-firestore.js"></script>
+    
+    <script src ="firebase.js"></script><!-- FireBase End-->	
+    <script src="contact.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,265 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	font-family: sans-serif;
+  }
+
+.header-search
+{
+	height: 100%;
+
+	background-image:linear-gradient(rgba(45, 141, 145, 0.5),rgba(21, 48, 66, 0.5)), url(img/dug-out-pool-hotel-poolside-1134176.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top:250px;
+	text-align: center;
+
+}
+
+
+.header-search h1
+{	color:white;
+	padding-bottom: 50px;
+	
+	font-size: 6em;
+
+	
+}
+
+  .input-group
+  {	  
+	  align-content: center;
+	  width: 90%;
+	  max-width: 500px;
+	  border-radius: 30px;
+	  background: #fff;
+	  margin: auto;
+	  padding:2px ;
+	  
+  }
+  .form-control
+  {
+	  border:0 !important;
+	  border-radius: 30px 0 0 30px !important;
+	  margin: 2px;
+	  box-shadow: none !important
+  
+  }
+  
+  .input-group-text
+  {
+	  width:100px;
+	  background-image: linear-gradient(#00ff7e,#1f3d90);
+	  border: 0 !important;
+	  padding: 0 25px !important;
+	  border-radius: 30px !important;
+	  box-shadow: none !important;
+  }
+ 
+
+.features
+{	background-image: linear-gradient(#4797c5d5,#ffff);
+	padding: 200px 0;
+
+}
+h1{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.feature-img img
+{
+	width: 100%;
+	margin-left: -15px;
+	max-height: 150px;
+
+}
+.price
+{
+	width:50px;
+	height: 50px;
+	background :#ff5722;
+	color:#fff;
+	font-weight: 600;
+	border-radius: 50%;
+	padding: 10px;
+	box-shadow: 0 0 10px 1px rgba(37,72,0,0.6);
+	position: absolute;
+	left: 15px;
+	bottom: -20px;
+
+}
+.feature-img
+{
+position: relative;
+}
+.rating
+{
+	padding: 3px;
+	float: right;
+	background:white;
+	bottom: -1px;
+	right:0;
+	position: absolute;
+
+}
+
+.features .fa
+{
+	font-size: 15px;
+	color: #ff5722;
+}
+.feature-details
+{
+	padding: 20px;
+	text-align: justify;
+}
+
+.feature-details h4
+{
+	font-weight: 600;
+	margin-top:20px;
+
+}
+.feature-details .fa
+{
+	margin-right: 5px;
+}
+.feature-box
+{
+	box-shadow: 0 0 10px 1px rgba(37,72,0,0.6);
+}
+.gallary
+{	background-image: linear-gradient(#d3dde4,rgba(62, 112, 158, 0.726));
+	padding: 200px 0;
+	
+}
+.gallary-box img
+{
+	width: 100%;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.gallary-box img:hover
+{
+	 transform: scale(1.1);
+}
+.gallary-box h4
+{
+	display: block;
+	color: white;
+	text-shadow: -2px 2px 2px #000;
+	font-weight: 600;
+	font-size: 20px;
+	position: absolute;
+	top :50%;
+	left:50%;
+
+}
+.gallary-box
+{
+	position: relative;
+	margin-bottom: 60px; 
+}
+.banner
+{background-image: linear-gradient(#00ff7e,#1f3d90);
+	height:40%;
+	background-size: cover;
+	background-image: url(img/beach-chairs-clouds-hotel-338504.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+.banner-highlights
+{
+	padding: 140px 40px;
+	background: rgba(0,0,0,0.7);
+	text-align: cneter;
+	color: white;
+}
+.booking-btn
+{
+	width: 100px;
+	padding: 8px 0;
+	outline: none ! important;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	background: transparent;
+	color : #fff;
+	margin-top : 30px; 
+}
+
+
+.users-feedback
+{
+	padding: 200px 0 ;
+	background: rgb(233, 219, 192);
+
+}
+.user-review
+{
+	text-align: center; 
+	box-shadow: 0 0 10px 0 rgba(0, 0,100,0.2);
+	max-height: 75vh;
+}
+.user-review p
+{
+	padding: 50px 40px 10px 10px;
+
+}
+.user-review h5
+{
+	padding: 0px 10px 10px 10px;
+	
+}
+.users-feedback img
+{	margin-top: 40px;
+	width: 100px;
+	height:100px;
+	border-radius: 54%;
+	position: relative;
+	margin: -30px 0 20px 40%;
+}
+.user-review p::before
+{
+	content: '\201d';
+	display: block;
+	position: absolute;
+	font-size: 100px;
+	color: #6495ed;
+	font-family: sans-serif;
+	left:44%;
+	top:-20%;
+
+}
+
+
+
+.col-md-3
+	{
+		padding-bottom: 30px;
+	}
+
+	 @media screen and (max-width: 768px) {
+	   .line 
+	   {
+		 width: 30px;
+		 height: 3px;
+		 background: white;
+		 margin: 5px;
+	   }
+	 
+	   .hamburger 
+	   {
+		 position: absolute;
+		 cursor: pointer;
+		 right: 5%;
+		 top: 50%;
+		 transform: translate(-5%, -50%);
+	   }
+	   }

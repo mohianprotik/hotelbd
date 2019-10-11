@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Admin Panel
+    </title>
+    
+	<link rel = "stylesheet" href="navbar.css">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	
+	<meta name="viewport" content="width = device-width , initial-scale = 1.0">
+	<link rel="stylesheet" href ="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./admin.css">
+</head>
+
+<body>
+        <header>
+
+    
+  
+                <div id ="navigation">
+               
+                <div class="hamburger">
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
+                </div>
+                <ul class="nav-links">
+                    
+                    <li><a href="admin.html">HOME</a></li>
+                    
+                    <li><a href="admin_hotel.html">Hotel Booking </a></li>
+                   
+                    <li><a href="feedback.html">Customer feedback</a></li>
+
+                   
+                    <button onclick="myFunction()"type="button" class="btn btn-warning" id = "Log_out" style="display:none">Log Out</button>
+
+
+			
+                 
+                </ul>
+                </div>
+              
+              
+            </header>
+
+<p style="margin-top: 80px"> WELCOME TO ADMIN PANEL</p>
+<style>
+    p{
+        color: rgb(1, 4, 7);
+        font-size: 60px;
+        text-align: center;
+        
+    }
+</style>
+
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-firestore.js"></script>
+    
+    <script src ="firebase.js"></script><!-- FireBase End-->	
+    <script src ="log.js"></script>
+    <script>
+           function myFunction() {
+        setTimeout(function(){ location.href = "./index.html"; }, 200);
+      }
+
+    </script>
+ 
+    
+</body>
+
+</html>
